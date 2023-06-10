@@ -1,3 +1,3 @@
-# JsonConfig
+# settings.json config 👨‍💻
 
 Hi...
