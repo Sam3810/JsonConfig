@@ -30,7 +30,7 @@
     "prettier.singleQuote": true,
     "files.trimTrailingWhitespace": true,
     "workbench.colorTheme": "One Dark Pro Darker",
-      "workbench.productIconTheme": "fluent-icons",
+     "workbench.productIconTheme": "fluent-icons",
 
     "editor.tokenColorCustomizations": {
         "textMateRules": [
