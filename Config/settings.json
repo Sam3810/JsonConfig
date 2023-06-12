@@ -2,7 +2,7 @@
     "security.workspace.trust.untrustedFiles": "open",
     "editor.stickyScroll.enabled": true,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "'Cascadia Code'",
+    "editor.fontFamily": "'JetBrains Mono'",
     "window.commandCenter": true,
     "polacode.target": "snippet",
     "polacode.transparentBackground": true,
@@ -23,14 +23,15 @@
     "symbols.hidesExplorerArrows": false,
     "workbench.iconTheme": "symbols",
     "editor.fontVariations": false,
-    "editor.fontWeight": "400",
-    "editor.fontSize": 15,
+    "editor.fontWeight": "600",
+    "editor.fontSize": 14,
     "terminal.integrated.env.windows": {},
     "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
     "prettier.singleQuote": true,
     "files.trimTrailingWhitespace": true,
     "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.productIconTheme": "fluent-icons",
+    "json.validate.enable": false
 
     "editor.tokenColorCustomizations": {
       "textMateRules": [
@@ -46,7 +47,7 @@
             "constant.numeric.decimal.js",
             "constant.numeric.json",
             "constant.numeric.css",
-            "keyword",
+            "keyword"
           ],
           "settings": {
             "fontStyle": "italic"
@@ -56,12 +57,12 @@
           "scope": [
             "invalid",
             "keyword.operator",
-            "keyword.control",
+            "keyword.control"
           ],
           "settings": {
             "fontStyle": "bold"
           }
         }
       ]
-    },
+    }
 }
