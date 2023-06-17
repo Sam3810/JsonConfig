@@ -2,7 +2,7 @@
     "security.workspace.trust.untrustedFiles": "open",
     "editor.stickyScroll.enabled": true,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "'JetBrains Mono'",
+    "editor.fontFamily": "'Cascadia Code'",
     "window.commandCenter": true,
     "polacode.target": "snippet",
     "polacode.transparentBackground": true,
@@ -23,46 +23,47 @@
     "symbols.hidesExplorerArrows": false,
     "workbench.iconTheme": "symbols",
     "editor.fontVariations": false,
-    "editor.fontWeight": "600",
+    "editor.fontWeight": "bold",
     "editor.fontSize": 14,
     "terminal.integrated.env.windows": {},
     "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
     "prettier.singleQuote": true,
     "files.trimTrailingWhitespace": true,
-    "workbench.colorTheme": "One Dark Pro Darker",
-    "workbench.productIconTheme": "fluent-icons",
-    "json.validate.enable": false
 
     "editor.tokenColorCustomizations": {
-      "textMateRules": [
-        {
-          "scope": [
-            "comment",
-            "entity.name.type.class",
-            "storage.modifier",
-            "storage.type",
-            "support.class.builtin",
-            "constant.language",
-            "entity.name.method",
-            "constant.numeric.decimal.js",
-            "constant.numeric.json",
-            "constant.numeric.css",
-            "keyword"
-          ],
-          "settings": {
-            "fontStyle": "italic"
+        "textMateRules": [
+          {
+            "scope": [
+              "comment",
+              "entity.name.type.class",
+              "keyword",
+              "storage.modifier",
+              "storage.type",
+              "support.class.builtin",
+              "keyword.control",
+              "constant.language",
+              "entity.other.attribute-name",
+              "entity.name.method"
+            ],
+            "settings": {
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "scope": [
+              "invalid",
+              "keyword.operator",
+              "constant.numeric.css",
+              "keyword.other.unit.px.css",
+              "constant.numeric.decimal.js",
+              "constant.numeric.json"
+            ],
+            "settings": {
+              "fontStyle": "italic"
+            }
           }
-        },
-        {
-          "scope": [
-            "invalid",
-            "keyword.operator",
-            "keyword.control"
-          ],
-          "settings": {
-            "fontStyle": "bold"
-          }
-        }
-      ]
-    }
+        ]
+      },
+      "workbench.colorTheme": "One Dark Pro Darker",
+      "workbench.productIconTheme": "fluent-icons"
 }
