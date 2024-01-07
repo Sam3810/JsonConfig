@@ -1,0 +1,69 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.stickyScroll.enabled": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Cascadia Code'",
+    "window.commandCenter": true,
+    "polacode.target": "snippet",
+    "polacode.transparentBackground": true,
+    "vscode-pets.petSize": "medium",
+    "vscode-pets.position": "panel",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "expand",
+    "editor.linkedEditing": true,
+    "breadcrumbs.enabled": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "brave",
+    "editor.wordWrap": "on",
+    "oneDarkPro.vivid": true,
+    "symbols.hidesExplorerArrows": false,
+    "workbench.iconTheme": "symbols",
+    "editor.fontVariations": false,
+    "editor.fontWeight": "bold",
+    "editor.fontSize": 14,
+    "terminal.integrated.env.windows": {},
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "prettier.singleQuote": true,
+    "files.trimTrailingWhitespace": true,
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": [
+              "comment",
+              "entity.name.type.class",
+              "keyword",
+              "storage.modifier",
+              "storage.type",
+              "support.class.builtin",
+              "keyword.control",
+              "constant.language",
+              "entity.other.attribute-name",
+              "entity.name.method"
+            ],
+            "settings": {
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "scope": [
+              "invalid",
+              "keyword.operator",
+              "constant.numeric.css",
+              "keyword.other.unit.px.css",
+              "constant.numeric.decimal.js",
+              "constant.numeric.json"
+            ],
+            "settings": {
+              "fontStyle": "italic"
+            }
+          }
+        ]
+      },
+      "workbench.colorTheme": "One Dark Pro Darker",
+      "workbench.productIconTheme": "fluent-icons"
+}
